@@ -20,11 +20,11 @@
     [self viewDidLoadExtention];
 
     NSButton *button = [[[NSButton alloc] init] autorelease];
-	[[[[self textFieldCell:@"ServiceFormText"] input] NSView] addSubview:button];
+    [[[[self textFieldCell:@"ServiceFormText"] input] NSView] addSubview:button];
     [button setKeyEquivalent:@"\r"];
-	[button setKeyEquivalentModifierMask:NSCommandKeyMask];
-	[button setTarget:self];
-	[button setAction:@selector(submit:)];
+    [button setKeyEquivalentModifierMask:NSCommandKeyMask];
+    [button setTarget:self];
+    [button setAction:@selector(submit:)];
     
     [self performSelector:@selector(addText:) withObject:@" [SHARE] "];
     [self performSelector:@selector(insertTitle:) withObject:nil];
