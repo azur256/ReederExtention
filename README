@@ -1,0 +1,27 @@
+//  ReederExtension
+//  Extention for Reeder 1.1.5
+//
+//  Created by azur256 on 03/26/12.
+//  Copyright 2012 azur256. All rights reserved.
+
+Reeder 1.1.5 で Twitter 共有ダイアログに初期値として
+自分用のテンプレートを組み込む SIMBL Plugin
+
+このソースを利用するには mitukiii さんの
+https://github.com/mitukiii/ReederExtension
+にあるswizzleMethod のコードが必要です。
+
+このコードを作成するにあたり、
+
+Kazuya Takeshima (@mitukiii) さんの
+http://mitukiii.jp/2011/01/21/how-to-make-simbl-plugin/
+
+と
+
+moyashi (@hitoriblog) さんの
+http://hitoriblog.com/?p=1992
+
+を参考にさせていただきました。このコードのライセンスはWTFPLです。
+Released under the WTFPL: http://sam.zoy.org/wtfpl
+
+Special thanks to @hitoriblog and @mitukiii.
